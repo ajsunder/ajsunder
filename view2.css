@@ -1,0 +1,68 @@
+
+a {
+    font-size:50;
+    color: white;
+    text-decoration: none;
+    font-family: Helvetica;
+}
+body {
+
+    margin: 0;
+background-image: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    color-stop(0.1, #88F78F),
+    color-stop(0.3, #53D9CE),
+    color-stop(0.5, #4F7FF0),
+    color-stop(0.8, #9653D9),
+    color-stop(1, #F04F92)
+);
+background-image: -o-linear-gradient(right bottom, #88F78F 10%, #53D9CE 30%, #4F7FF0 50%, #9653D9 80%, #F04F92 100%);
+background-image: -moz-linear-gradient(right bottom, #88F78F 10%, #53D9CE 30%, #4F7FF0 50%, #9653D9 80%, #F04F92 100%);
+background-image: -webkit-linear-gradient(right bottom, #88F78F 10%, #53D9CE 30%, #4F7FF0 50%, #9653D9 80%, #F04F92 100%);
+background-image: -ms-linear-gradient(right bottom, #88F78F 10%, #53D9CE 30%, #4F7FF0 50%, #9653D9 80%, #F04F92 100%);
+background-image: linear-gradient(to right bottom, #88F78F 10%, #53D9CE 30%, #4F7FF0 50%, #9653D9 80%, #F04F92 100%);
+}
+
+.header {
+    font-size: 150;
+    color: white;
+    font-family: Helvetica;
+    text-align: center;
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+.inner {
+    margin-left: auto;
+    margin-right: auto; 
+    width: /*whatever width you want*/;
+}
+.link {
+    border-radius: 100px;
+    width: 300px;
+
+    padding: 10px;
+    border: 5px solid white;
+    margin: 5px;
+    float: center;
+    display: inline-block;
+    text-align: center;
+}
+.link:hover {
+        background: rgba(255, 255, 255, 0.25);
+}
+
+
+#wrapper {
+    margin-top: 25px;
+}
