@@ -33,6 +33,9 @@ body {
     margin-left: auto;
     margin-right: auto; 
 }
+.icons {
+    min-width: 500px;
+}
 
 .icon-wrapper {
     width: 25%;
@@ -40,6 +43,7 @@ body {
     border: 0px solid white;
     border-radius: 20px;
     position: relative;
+    list-style-type: none;
 }
 .icon-image {
     border: 5px solid white;
@@ -124,17 +128,98 @@ body {
     margin: auto;
     text-align:center;
     font-family: Helvetica;
+    font-size: x-large;
     color: white;
 }
-@media only screen and (min-width:320px) and (max-width:767px){
-}
 
+@media screen and (max-width: 767px) {
+    .icon-wrapper {
+        height: 180px;
+    }
+    .header {
+        font-size: 80;
+    }
+    .icon-image {
+        border-radius: 25px;
+        width: 95px;
+        height: 95px;
+        background-size: 50px;
+    }
+
+    .icons {
+        padding: 10px 0px 0px 0px;
+    }
+    #twitter {
+    background: transparent url(./twitter.png) no-repeat center center;
+    background-size: 55px;
+}
+#twitter:hover {
+    background: rgba(255, 255, 255, 0.30) url(./twitter.png) no-repeat center center;
+    background-size: 55px;
+}
+#google {
+    background: transparent url(./google.png) no-repeat center center;
+    background-size: 55px;
+}
+#google:hover {
+    background: rgba(255, 255, 255, 0.30) url(./google.png) no-repeat center center;
+    background-size: 55px;
+}
+#email {
+    background: transparent url(./email.png) no-repeat center center;
+    background-size: 55px;
+}
+#email:hover {
+    background: rgba(255, 255, 255, 0.30) url(./email.png) no-repeat center center;
+    background-size: 55px;
+}
+#instagram {
+    background: transparent url(./instagram.png) no-repeat center center;
+    background-size: 55px;
+}
+#instagram:hover {
+    background: rgba(255, 255, 255, 0.30) url(./instagram.png) no-repeat center center;
+    background-size: 55px;
+}
+#linkedin {
+    background: transparent url(./linkedin.png) no-repeat center center;
+    background-size: 55px;
+}
+#linkedin:hover {
+    background: rgba(255, 255, 255, 0.30) url(./linkedin.png) no-repeat center center;
+    background-size: 55px;
+}
+#about {
+    background: transparent url(./about.png) no-repeat center center;
+    background-size: 55px;
+}
+#about:hover {
+    background: rgba(255, 255, 255, 0.30) url(./about.png) no-repeat center center;
+    background-size: 55px;
+}
+#amazon {
+    background: transparent url(./amazon.png) no-repeat center center;
+    background-size: 55px;
+}
+#amazon:hover {
+    background: rgba(255, 255, 255, 0.30) url(./amazon.png) no-repeat center center;
+    background-size: 55px;
+}
+#facebook {
+    background: transparent url(./facebook.png) no-repeat center center;
+    background-size: 55px;
+}
+#facebook:hover {
+    background: rgba(255, 255, 255, 0.30) url(./facebook.png) no-repeat center center;
+    background-size: 55px;
+}
+}
 @media (min-width: 768px){
     .icon-wrapper {
         height: 200px;
     }
     .header {
-        font-size: 130;
+        font-size: 115;
     }
     .icon-image {
         border-radius: 35px;
@@ -147,16 +232,25 @@ body {
 
 }
 @media (min-width: 1024px){
+    .icon-wrapper {
+        height: 215px;
+    }
     .header {
         font-size: 140;
     }
+    .icon-image {
+        border: 8px solid white;
+    }
+    .icon-label {
+        font-size: xx-large;
+    }
     .icons {
-        padding: 10px 100px 0px 100px;
+        padding: 10px 50px 0px 50px;
     }
 }
 @media (min-width: 1441px){
     .icon-wrapper {
-        height: 350px;
+        height: 315px;
     }
     .header {
         font-size: 180;
@@ -167,83 +261,76 @@ body {
         height: 200px;
     }
     .icon-label {
-        font-size: 35;
+        font-size: 42;
     }
     .icons {
-        padding: 10px 50px 0px 50px;
+        padding: 10px 100px 0px 100px;
     }
+    #twitter {
+    background: transparent url(./twitter.png) no-repeat center center;
+    background-size: 115px;
+}
+#twitter:hover {
+    background: rgba(255, 255, 255, 0.30) url(./twitter.png) no-repeat center center;
+    background-size: 115px;
+}
+#google {
+    background: transparent url(./google.png) no-repeat center center;
+    background-size: 115px;
+}
+#google:hover {
+    background: rgba(255, 255, 255, 0.30) url(./google.png) no-repeat center center;
+    background-size: 115px;
+}
+#email {
+    background: transparent url(./email.png) no-repeat center center;
+    background-size: 115px;
+}
+#email:hover {
+    background: rgba(255, 255, 255, 0.30) url(./email.png) no-repeat center center;
+    background-size: 115px;
+}
+#instagram {
+    background: transparent url(./instagram.png) no-repeat center center;
+    background-size: 115px;
+}
+#instagram:hover {
+    background: rgba(255, 255, 255, 0.30) url(./instagram.png) no-repeat center center;
+    background-size: 115px;
+}
+#linkedin {
+    background: transparent url(./linkedin.png) no-repeat center center;
+    background-size: 115px;
+}
+#linkedin:hover {
+    background: rgba(255, 255, 255, 0.30) url(./linkedin.png) no-repeat center center;
+    background-size: 115px;
+}
+#about {
+    background: transparent url(./about.png) no-repeat center center;
+    background-size: 115px;
+}
+#about:hover {
+    background: rgba(255, 255, 255, 0.30) url(./about.png) no-repeat center center;
+    background-size: 115px;
+}
+#amazon {
+    background: transparent url(./amazon.png) no-repeat center center;
+    background-size: 115px;
+}
+#amazon:hover {
+    background: rgba(255, 255, 255, 0.30) url(./amazon.png) no-repeat center center;
+    background-size: 115px;
+}
+#facebook {
+    background: transparent url(./facebook.png) no-repeat center center;
+    background-size: 115px;
+}
+#facebook:hover {
+    background: rgba(255, 255, 255, 0.30) url(./facebook.png) no-repeat center center;
+    background-size: 115px;
+}
 }
 .about-text {
     padding: 100px;
-}
-
-/* ----------- iPhone 4 and 4S ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-
-}
-/* iPHONES */
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-    .icon-wrapper {
-        height: 260px;
-    }
-    .icon-image {
-        border-radius: 40px;
-        width: 160px;
-        height: 160px;
-        background-size: 50px;
-    }
-    .icon-label {
-        font-size: 6;
-    }
-    .header {
-        font-size: 150;
-    }
-    .icons {
-        padding: 10px 0px 0px 0px;
-    }
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    body {
-            /*line-height: 1.1;*/
-    }
-    .icon-wrapper {
-        height: 200px;
-    }
-    .icon-image {
-        border-radius: 32px;
-        width: 120px;
-        height: 120px;
-        background-size: 50px;
-    }
-    .icon-label {
-        font-size: 26;
-    }
-    .header {
-        font-size: 150;
-    }
-    .icons {
-        padding: 0px;
-
-    margin: 0px auto;
-    }
-
-
 }

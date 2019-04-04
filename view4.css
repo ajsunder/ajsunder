@@ -1,0 +1,191 @@
+
+a {
+    font-size:35;
+    color: white;
+    text-decoration: none;
+    font-family: Helvetica;
+    outline: none;
+}
+body {
+    margin: 0;
+    background-color: black;
+    font-family: helvetica;
+    color: white;
+}
+.about-text {
+    padding: 5%;
+}
+
+.header {
+    font-size: 150;
+    font-size: 75;
+    text-align: center;
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+.inner {
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.icon-wrapper {
+    width: 25%;
+    float: left;
+    border: 0px solid white;
+    border-radius: 20px;
+    position: relative;
+}
+.icon-image {
+    border: 5px solid white;
+    margin: auto;
+    z-index: 1;
+    transition:color .05s ease-out, background .2s ease-in;
+    -o-transition:color .05s ease-out, background .2s ease-in;
+    -ms-transition:color .05s ease-out, background .2s ease-in;
+    -moz-transition:color .05s ease-out, background .2s ease-in;
+    -webkit-transition:color .05s ease-out, background .2s ease-in;
+}
+
+#twitter {
+    background: transparent url(./twitter.png) no-repeat center center;
+    background-size: 75px;
+}
+#twitter:hover {
+    background: rgba(255, 255, 255, 0.30) url(./twitter.png) no-repeat center center;
+    background-size: 75px;
+}
+#google {
+    background: transparent url(./google.png) no-repeat center center;
+    background-size: 75px;
+}
+#google:hover {
+    background: rgba(255, 255, 255, 0.30) url(./google.png) no-repeat center center;
+    background-size: 75px;
+}
+#email {
+    background: transparent url(./email.png) no-repeat center center;
+    background-size: 75px;
+}
+#email:hover {
+    background: rgba(255, 255, 255, 0.30) url(./email.png) no-repeat center center;
+    background-size: 75px;
+}
+#instagram {
+    background: transparent url(./instagram.png) no-repeat center center;
+    background-size: 75px;
+}
+#instagram:hover {
+    background: rgba(255, 255, 255, 0.30) url(./instagram.png) no-repeat center center;
+    background-size: 75px;
+}
+#linkedin {
+    background: transparent url(./linkedin.png) no-repeat center center;
+    background-size: 75px;
+}
+#linkedin:hover {
+    background: rgba(255, 255, 255, 0.30) url(./linkedin.png) no-repeat center center;
+    background-size: 75px;
+}
+#about {
+    background: transparent url(./about.png) no-repeat center center;
+    background-size: 75px;
+}
+#about:hover {
+    background: rgba(255, 255, 255, 0.30) url(./about.png) no-repeat center center;
+    background-size: 75px;
+}
+#amazon {
+    background: transparent url(./amazon.png) no-repeat center center;
+    background-size: 75px;
+}
+#amazon:hover {
+    background: rgba(255, 255, 255, 0.30) url(./amazon.png) no-repeat center center;
+    background-size: 75px;
+}
+#facebook {
+    background: transparent url(./facebook.png) no-repeat center center;
+    background-size: 75px;
+}
+#facebook:hover {
+    background: rgba(255, 255, 255, 0.30) url(./facebook.png) no-repeat center center;
+    background-size: 75px;
+}
+
+.icon-label {
+    padding: 10px;
+    border: 0px solid white;
+    z-index: 2;
+    margin: auto;
+    text-align:center;
+    font-family: Helvetica;
+        font-size: 35;
+    color: white;
+}
+
+.icon-wrapper {
+        height: 350px;
+    }
+    .header {
+        font-size: 180;
+    }
+    .icon-image {
+        border-radius: 50px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .icons {
+        padding: 10px 50px 0px 50px;
+    }
+
+@media only screen and (max-width: 1068px) { /* iPads */
+    .header {
+        font-size: 140;
+    }
+    .icons {
+        padding: 10px 100px 0px 100px;
+    }
+    .icon-label {
+        font-size: 20px;
+    }
+
+}
+
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 736px)  { 
+    .icon-wrapper {
+        height: 260px;
+    }
+    .icon-image {
+        border-radius: 40px;
+        width: 160px;
+        height: 160px;
+        background-size: 50px;
+    }
+    .icon-label {
+        font-size: 6;
+    }
+    .header {
+        font-size: 150;
+    }
+    .icons {
+        padding: 10px 0px 0px 0px;
+    }
+
+}
+
+
+
+
