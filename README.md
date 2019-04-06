@@ -1,2 +1,2 @@
 # ajsunder
-Repository for www.ajsunder.com
+www.ajsunder.com
